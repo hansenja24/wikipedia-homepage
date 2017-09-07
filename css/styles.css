@@ -1,0 +1,82 @@
+.wiki{
+
+  margin-top:35px;
+}
+
+.column1 {
+  width:400px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#jumbotron{
+  background-color: #eff3f9;
+  height:140px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  padding-top:5px;
+  padding-bottom:10px;
+  padding-right:20px;
+}
+
+#light-green{
+  background-color: #eaefe6;
+}
+
+#light-blue{
+  background-color: #f7feff;
+}
+
+.church {
+  float: right;
+  width:120px;
+  font-size:12px;
+}
+
+.galaxy {
+  width:120px;
+  float:left;
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+.church img {
+  float: right;
+  width:120px;
+}
+
+.galaxy img {
+  width:120px;
+  float:left;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+
+.irma {
+  width: 120px;
+  float: right;
+  margin-right: 20px;
+  font-size:12px;
+}
+
+.heinkel {
+  width: 140px;
+  float: right;
+  margin-right: 20px;
+  font-size:12px;
+}
+
+.irma img {
+  width: 120px;
+  float: right;
+  margin-left: 20px;
+
+}
+
+.heinkel img {
+  width: 140px;
+  float: right;
+  margin-left: 20px;
+}
