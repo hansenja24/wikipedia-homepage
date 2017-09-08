@@ -116,7 +116,31 @@
         </ul>
       </div>
 
-      <div class="row row1">
+      <div class="header-log" id="right">
+          <li>Log in</li>
+          <li>Create account</li>
+          <li>Contributions</li>
+          <li>Talk</li>
+          <li><span class="glyphicons glyphicons-user"></span>Not logged in</li>
+        </ul>
+      </div>
+      <div class="row row1" id="right">
+        <div class="col-md-6">
+          <ul class="nav nav-tabs head">
+            <li role="presentation" class="active"><a href"#">Main Page</a></li>
+            <li role="presentation"><a href"#">Talk</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="nav nav-tabs head head1 ">
+            <li role="presentation" class="active"><a href"#">Read</a></li>
+            <li role="presentation"><a href"#">View Source</a></li>
+            <li role="presentation"><a href"#">View History</a></li>
+            <li><input type="search" name="search" placeholder="search"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row row1" id="right">
         <div id="jumbotron">
           <div class="col-md-6">
             <div class="column1">
@@ -224,7 +248,7 @@
         </div>
 
         <div class="col-md-6">
-          <div class="panel panel-info">
+          <div class="panel panel-info" id="right">
             <div class="panel-heading">
               <h2 class="panel-title">In the News</h2>
             </div>
@@ -296,7 +320,7 @@
         </div>
 
 
-        <div class="panel panel-default row1">
+        <div class="panel panel-default row1" id="right">
           <div class="panel-heading" id="dark-purple">
             <h2 class="panel-title">Today's featured picture</h2>
           </div>
@@ -320,7 +344,7 @@
             </div>
           </div>
 
-        <div class="panel panel-default" id="other">
+        <div class="panel panel-default" id="other right">
           <div class="panel-heading">
             <h2 class="panel-title">Other areas of Wikipedia</h2>
           </div>
@@ -336,24 +360,31 @@
           </div>
         </div>
 
-        <div class="panel panel-default" id="other">
+        <div class="panel panel-default" id="other right">
           <div class="panel-heading">
             <h2 class="panel-title">Wikipedia's sister projects</h2>
           </div>
           <div class="panel-body">
             <p>Wikipedia is hosted by the Wikipedia Foundation, a non-profit organization that also hosts a range of other projects:</p>
-            <p>Commons<br>Free media repository</p>
-            <p>MediaWiki<br>Wiki software development</p>
-            <p>Meta-Wiki<br>Wikimedia project coordination</p>
-            <p>Wikibooks<br>Free textbooks and manuals</p>
-            <p>Wikidata<br>Free knowledge</p>
-            <p>Wikinews<br>Free-content news</p>
-            <p>Wikiquote<br>Collections of quotations</p>
-            <p>Wikisource<br>Free-content library</p>
-            <p>Wikispecies<br>Directory of species</p>
-            <p>Wikiversity<br>Free learning materials and activities</p>
-            <p>Wikivoyage<br>Free travel guide</p>
-            <p>Wiktionary<br>Dictionary and thesaurus</p>
+            <div class="row">
+              <div class="col-md-4 sister-col">
+                <p><img class="sister-logo" src ="img/wikipedia-commons.png">Commons<br>Free media repository</p>
+                <p><img class="sister-logo" id="mediawiki" src ="img/mediawiki.png">MediaWiki<br>Wiki software development</p>
+                <p><img class="sister-logo" src ="img/metawiki.svg">Meta-Wiki<br>Wikimedia project coordination</p>
+                <p><img class="sister-logo" src ="img/wikiversity.svg">Wikiversity<br>Free learning materials and activities</p>
+              </div>
+              <div class="col-md-4 sister-col">
+                <p><img class="sister-logo" src ="img/wikibooks.png">Wikibooks<br>Free textbooks and manuals</p>
+                <p><img class="sister-logo" src ="img/wikidata.png">Wikidata<br>Free knowledge</p>
+                <p><img class="sister-logo" src ="img/wikinews.png">Wikinews<br>Free-content news</p>
+                <p><img class="sister-logo" src ="img/wikivoyage.png">Wikivoyage<br>Free travel guide</p>
+              </div>
+              <div class="col-md-4 sister-col">
+                <p><img class="sister-logo" src ="img/wikiquotes.png">Wikiquote<br>Collections of quotations</p>
+                <p><img class="sister-logo" src ="img/wikisource.png">Wikisource<br>Free-content library</p>
+                <p><img class="sister-logo" src ="img/wikispecies.png">Wikispecies<br>Directory of species</p>
+                <p><img class="sister-logo" src ="img/wikitionary.png">Wiktionary<br>Dictionary and thesaurus</p>
+              </div>
           </div>
         </div>
 

@@ -132,3 +132,49 @@
 #other{
   border-bottom-width: medium;
 }
+
+.header-log li{
+  display:inline-block;
+  float:right;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.header-log{
+
+  padding-bottom: 20px;
+}
+.head{
+  padding-top: 15px;
+}
+
+.head1{
+  float:right;
+}
+
+input{
+  margin-top:8px;
+}
+
+.sister-logo {
+  display:block;
+  margin:auto;
+  width: 50px;
+
+  float:left;
+  padding-right:10px;
+  align:middle;
+}
+
+.sister-col p{
+  height: 60px;
+}
+
+#mediawiki {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#right{
+  margin-right:10px;
+}
